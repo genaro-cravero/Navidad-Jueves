@@ -2,23 +2,33 @@ body
 {
     background-image: url("./assets/images/Pine\ tile.png");
     background-color: rgb(25, 138, 49);
+    color: #fff;
     background-repeat: repeat;
     background-size: 12vw;
     text-align: center;
-    font-size: 36px;
+    font-size: 18px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+#body-out{
+    border: 6px red dotted;
+    height: 96.5vh;
+}
+
+#body-in{
+    border: 4px rgb(11, 179, 11) dashed;
+    height: 96.5vh;
+}
+
 .top-header-image{
-    width: 1789px;
-    height: 607px;
+    width: 596px;
+    height: 202px;
 }
 
 #top-left{
     margin-left: 100px;
-    margin-top: 100px;
-    height: 300px;
-    width: 400px;
+    height: 100px;
+    width: 300px;
 }
 
 #top-left-outer{
@@ -26,15 +36,19 @@ body
 }
 
 #top-left-inner{
-    border: 3px green dashed;
+    border: 3px rgb(11, 179, 11) dashed;
+}
+
+#xmas-tree{
+    width: 333px;
+    height: 333px;
 }
 
 #bot-right{
     margin-left: auto;
     margin-right: 100px;
-    margin-top: 50px;
-    height: 300px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 
 #bot-right-outer{
@@ -42,5 +56,5 @@ body
 }
 
 #bot-right-inner{
-    border: 3px green dashed;
+    border: 3px rgb(11, 179, 11) dashed;
 }
